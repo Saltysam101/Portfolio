@@ -68,5 +68,51 @@ nav{
   clip-path: circle(2400px at 90% -10%);
   -webkit-clip-path: circle(2400px at 90% -10%);
   pointer-events: all;
+  z-index: 3;
   
+}
+
+
+nav{
+    border-bottom: 1px solid white;
+}
+
+header{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+header h1{
+    font-size: 2rem;
+}
+
+section{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+form{
+    margin-top: 25px;
+    z-index: 1;
+}
+
+form input{
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 180px;
+    margin-top: 25px;
+}
+
+form label{
+    position: relative;
+    top: 2%;
+    left: 25%;
+    transform: translate(-25%, -2%);
 }
