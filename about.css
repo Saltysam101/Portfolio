@@ -46,6 +46,7 @@ nav{
     display: flex;
     height: 100%;
     background-color: black;
+    border-bottom: 1px solid white;
 }
 
 .nav-links{
@@ -69,4 +70,35 @@ nav{
   -webkit-clip-path: circle(2400px at 90% -10%);
   pointer-events: all;
   
+}
+
+header{
+    height: 25vh;
+}
+
+
+header h1{
+    margin: 10px;
+    margin-left: 60px;
+    font-size: 2rem;
+}
+
+.name{
+    margin-top: 50px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mobile{
+    font-size: 1.75rem;
+    margin-top: 100px;
+}
+
+p{
+    margin: 10px 15px;
+    font-size: 1rem;
 }
