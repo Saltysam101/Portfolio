@@ -46,6 +46,7 @@ nav{
     display: flex;
     height: 100%;
     background-color: black;
+    border-bottom: 1px white solid;
 }
 
 .nav-links{
@@ -70,3 +71,78 @@ nav{
   pointer-events: all;
   
 }
+
+main{
+    height: 85vh;
+}
+
+header{
+    line-height: 25px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+header h1{
+    font-size: 2rem;
+}
+
+header p{
+    font-size: 1rem;
+    color: rgb(163, 163, 163);
+}
+
+.splash{
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.splash h3{
+    color: rgba(255, 0, 0, 0.308);
+    font-size: 1.25rem;
+}
+
+
+
+.cta{
+    padding: .75em .75em;
+    background: white;
+    color: black;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 2px solid;
+    font-size: 1.5rem;
+}
+
+.projects h2{
+    font-size: 1.75rem;
+    margin-left: 60px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box{
+    margin: 75px 0;
+}
+
+.box h3{
+    color: rgba(255, 0, 0, 0.308);
+    margin-top: 25px;
+}
+
+.view{
+    text-decoration: none;
+    padding: 1.25em .5em;
+    background-color: white;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+
