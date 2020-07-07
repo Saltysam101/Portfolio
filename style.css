@@ -118,9 +118,9 @@ header p{
     background: white;
     color: black;
     border-radius: 30px;
-    border-color: red;
     letter-spacing: 3px;
     font-size: 1.25rem;
+    margin-bottom: 20px;
 }
 
 .projects h2{
@@ -179,7 +179,7 @@ img{
 
 
 .box h3{
-    color: rgba(255, 0, 0, 0.308);
+    
     margin-top: 25px;
 }
 
@@ -193,7 +193,6 @@ button{
     width: 150px;
     border-radius: 30px;
     letter-spacing: 2px;
-    border-color: red;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;

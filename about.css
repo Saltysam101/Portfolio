@@ -93,6 +93,15 @@ header h1{
     justify-content: space-evenly;
 }
 
+#cta{
+    margin: 15px auto;
+    height: 50px;
+    width: 120px;
+    border-radius: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
 .mobile{
     font-size: 1.75rem;
     margin-top: 100px;
